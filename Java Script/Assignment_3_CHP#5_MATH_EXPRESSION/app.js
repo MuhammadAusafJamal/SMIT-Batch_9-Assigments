@@ -27,7 +27,7 @@ num = 15;
 // d
 document.write("Intial value: 15" + "<br/>");
 // e
-num = num++
+num = ++num;
 // f
 document.write("Value after increment is:" + num + "<br/>");
 // g
@@ -35,7 +35,7 @@ num = num + 7;
 // h
 document.write("Value after addition is " + num + "<br/>"); 
 // i
-num = num--;
+num = --num;
 // j
 document.write( "Value after decrement is:" + num + "<br/>");
 // k
