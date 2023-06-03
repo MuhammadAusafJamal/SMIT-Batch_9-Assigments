@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+.header {
+    width: 100%;
+}
+textarea {
+    max-width: 100%; 
+    max-height: 100%;
+   
+}
+.header p {
+    display: inline;
+    float: right;
+    padding: 5px;
+    margin-right: 40px;
+}
+.my-nav {
+
+    width: 100%;
+    background-color: white !important;
+}
+
+.logo-p {
+    color: #377DFF;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.section-1 {
+    margin-top: 50px;
+}
+
+.section-1 h1 {
+    text-align: center;
+}
+
+.section-1 h6 {
+    color: #6C7788;
+    text-align: center;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.section-2 {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.section-2 button {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 40px;
+
+}
+
+.btn-1 {
+    padding: 14px 44px;
+    border-radius: 5px;
+}
+
+.btn-2 {
+    padding: 14px 44px;
+    border-radius: 5px;
+
+}
+.section-3{
+    border: 1px solid #d5d5d5;
+    box-shadow: 0 0 35px rgba(140, 152, 163, .125);
+    border-radius: 0.5rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+.section-3 button{
+    background-color: white;
+    border: none;
+
+}
+.btn-sec3{
+    margin-left: 15px;
+}
+.section-3 button:hover{
+    background-color: #d5d5d5;
+
+
+}
+.line{
+    columns: 1px solid #d5d5d5;
+}
