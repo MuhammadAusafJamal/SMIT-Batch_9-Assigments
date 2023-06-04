@@ -91,3 +91,26 @@ textarea {
 .line{
     columns: 1px solid #d5d5d5;
 }
+
+@media (max-width: 767px) {
+    .header p {
+        margin-right: 10px;
+    }
+
+    .section-3 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 991px) {
+    .section-2 button {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .section-3 {  margin-left: 10%;
+        margin-right: 10%;
+    }
+}
