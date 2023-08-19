@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+        background-color: #DFE9F5;
+      
+}
+
+.navbar {
+    background-color: #995252;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.login-container {
+    text-align: center;
+    padding: 15px;
+}
+
+.login-button a {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.signup-button a {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.persnal {
+    padding-left: 100px;
+}
+
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogs-post {
+    margin-top: 50px;
+    width: 600px;
+    height: 340px;
+    background: transparent;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.input-title {
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    background: transparent;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid grey;
+}
+
+.blog-parag {
+    border-radius: 10px;
+    resize: none;
+    padding-left: 10px;
+
+}
+
+.blog-parag:focus {
+    outline: red;
+}
+
+.publish-btn {
+    width: 500px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #007BFF;
+    border: 2px solid #007BFF;
+    margin-top: 10px;
+    color: white;
+
+}
+
+.publish-btn:hover {
+    opacity: 0.5;
+}
+
+
+
+.dashboard-div {
+    display: block;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.login-container {
+    text-align: center;
+    padding: 15px;
+}
+
+.login-button a {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.signup-button a {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.persnal {
+    padding-left: 100px;
+}
+
+.container-fluid {
+    background-color: #FFF;
+    display: flex;
+    padding-left: 112px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: alberto, sans-serif;
+}
+
+.main-heading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-heading>h1 {
+    font-size: 22px;
+
+}
+
+@media (max-width: 768px) {
+    .main-heading h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.post-div {
+    display: block;
+    justify-content: center;
+
+}
+
+.card {
+    max-width: 58%;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
+    margin: 0 auto;
+    margin-top: 20px;
+
+
+
+}
+
+.section-1>img {
+    width: 70px;
+    padding: 10px;
+}
+
+.section-1>p {
+    padding: 10px;
+    font-weight: 900;
+    font-size: 16px;
+    font-family: serif;
+}
+
+.section-2>p {
+    color: lightgray;
+    font-size: 14px;
+    margin-left: 80px;
+    margin-top: -31PX;
+    font-family: serif;
+
+}
+
+.section-3>p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}

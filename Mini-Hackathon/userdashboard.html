@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="userdashboard.css">
+    <title>Blog Tube</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand persnal" href="#">Blog Tube</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <button class="btn btn-primary login-button " data-toggle="modal" data-target="#loginModal">
+                        <a href="index.html">Sign Out</a></button>
+                        <button class="btn btn-primary login-button " data-toggle="modal" data-target="#loginModal">
+                            <a href="dashboard.html">Dashboard</a></button>
+
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Login Modal -->
+    <div class="main-div">
+        <div class="blogs-post ">
+
+            <center><input type="text" placeholder="Enter Blog Title" class="input-title" id="input-title"></center>
+            <center> <textarea id="Input-content" cols="60" placeholder="Enter Your Content" rows="6"class="blog-parag"></textarea></center>
+            <center><button type="submit" id="publish-btn" class=" publish-btn">Publish Blog</button>
+        </div>
+        </center>
+    </div>
+    <div class="post-div" id="posted-blog">
+
+    </div>
+
+
+</body>
+<script type="module" src="FireB.js"></script>
+
+</html>
